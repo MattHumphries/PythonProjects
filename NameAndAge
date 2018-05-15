@@ -1,0 +1,25 @@
+#@Author Matt Humphries
+#prints header for the program.
+
+print('-------------------------------')
+print('-----------Hello App-----------')
+print('-------------------------------')
+print()
+
+#prompt user to enter there name.
+user_text = input('What is your name? ')
+print()
+#assigns a string concatenated with the user name
+greeting = 'nice to meet you ' + user_text
+
+#returns one string with name and greeting.
+print(greeting)
+print()
+#prompt user to enter there name.
+user_age = input('How old are you?')
+
+#assigns to age the string and user entered input.
+age = 'You are ' + user_age + ' years old. Pretty Old...'
+print()
+#returns the string with string and age.
+print(age)

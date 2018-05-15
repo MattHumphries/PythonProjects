@@ -6,7 +6,7 @@ print('-----------Hello App-----------')
 print('-------------------------------')
 print()
 
-#prompt user to enter there name.
+#prompt user to enter their name.
 user_text = input('What is your name? ')
 print()
 #assigns a string concatenated with the user name
